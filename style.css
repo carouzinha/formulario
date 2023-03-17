@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.fullCenter{
+    background-color: rgba(0, 149, 255, 0.411);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#formulario{
+    background-color: rgb(18, 81, 139);
+    width: 350px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
