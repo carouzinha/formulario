@@ -2,20 +2,85 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url(montserrat.ttf);
+}
 .fullCenter{
-    background-color: rgba(0, 149, 255, 0.411);
-    padding: 15px;
+    background-color: #ffffffbb;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-content: center;
 }
+/*Edge*/
+::-webkit-input-placeholder{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000a7;
+}
+/* Internet Explorer 10-11 */
+:-ms-input-placeholder{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000a7;
+}
+/* Demais Navegadores */
+::placeholder{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000a7;
+}
 
 #formulario{
-    background-color: rgb(18, 81, 139);
+    background-color: #ffffff;
     width: 350px;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+h1{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 35px;
+    color: black;
+}
+label{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.textField{
+    width: 324px;
+    height: 58px;
+    background-color: white;
+    border: #767676 solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 13px;
+    color: black;
+    line-height: 19px;
+}
+.whiteButton{
+    width: 150px;
+    height: 58px;
+    padding: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
 }
